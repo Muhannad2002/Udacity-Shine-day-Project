@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #f8e9d1;
+  color: #6b5c67;
+}
+
+.shine {
+color: rgb(250, 250, 250);
+text-decoration: none;
+text-align: center;
+
+
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0d8b3;
+  padding: 1rem;
+  color: white;
+}
+nav {
+  background-color: #e6b366;
+  justify-content: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+}
+nav ul li {
+  text-align: center;
+  padding: 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  
+}
+.first-section {
+  background: linear-gradient(to right, #ef7676, #f9c300);
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.first-section button {
+  background: rgb(60, 144, 240);
+  color: rgb(244, 237, 237);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  
+}
+
+.first-btn:hover {
+  background-color: #064ea7;
+
+}
+.first-btn:active {
+  background-color: #0053fa;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+}
+.card {
+  background: rgb(213, 208, 208);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(160, 152, 152, 0.1);
+  text-align: center;
+  border: 2px solid rgb(193, 186, 186);
+}
+
+button {
+  padding: 10px;
+  border: 1px solid #bbb9b9;
+  border-radius: 5px;
+}
+
+.second-btn {
+  background: #6e7dc7;
+  color: white;
+  cursor: pointer;
+  
+}
+
+.second-btn:hover {
+  background-color: rgba(33, 6, 142, 0.98)
+}
+
+.second-btn:active {
+  background-color: #0053fa;
+}
+footer {
+  background: #f2b75e;
+  color: white;
+  text-align: center;
+  padding: 7rem;
+
+}
+
+.cars {
+
+  padding: 20px;
+}

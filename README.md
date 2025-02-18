@@ -1,2 +1,2 @@
-# Udacity-Shine-day-Project
+# Udacity-Project
 Web Project
